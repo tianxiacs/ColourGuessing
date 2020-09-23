@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="colourGuess.css">
+    <title>Colour Guess Game</title>
+</head>
+<body>
+    <div class="container-fluid text-center pt-3" id="upperSection">
+        Refresh Your Memory on RGB Colours!
+        <h1 id="colorBoard">color</h1>
+        COLOUR RGUESSING GAME
+    </div>
+    
+    <div class="text-center" id="menu">
+        <button>REFRESH COLOURS</button>
+        <span class="mx-5" id="status"> 
+            >> Pick Now! <<
+        </span>
+        <button>EASY</button>
+        <button>HARD</button>
+    </div>
+
+    <div class="container" id="colorContainer">
+        <div class="row justify-content-center">
+            <div class="colorBox col-6 col-md-4"></div>
+            <div class="colorBox col-6 col-md-4"></div>
+            <div class="colorBox col-6 col-md-4"></div>
+            <div class="colorBox col-6 col-md-4"></div>
+            <div class="colorBox col-6 col-md-4"></div>
+            <div class="colorBox col-6 col-md-4"></div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="colourGuess.js"></script>
+</body>
+</html>
