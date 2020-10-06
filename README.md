@@ -1,4 +1,5 @@
-# ColourGuessing
+# ColourPicking
+https://colour-picking-game.netlify.app\
 A simple colour guessing game to practice JavaScript, responsive tiles,and DOM (No JQuery).
 
 Check the RGB value and pick the correct colour tile.\
